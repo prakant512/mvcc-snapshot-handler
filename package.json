@@ -1,0 +1,18 @@
+{
+  "name": "mvcc-snapshot-handler",
+  "version": "1.0.0",
+  "description": "A mini project that implements an MVCC Snapshot Handler to manage multiple versions of data and ensure consistent reads for concurrent transactions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.0",
+    "uuid": "^13.0.0"
+  }
+}
